@@ -9,6 +9,10 @@ A reverse proxy is recommended to add TLS. When using a reverse proxy, keep
 `HOST` as-is, but add the publicly accessible URL to `PUBLIC_URL`. The URL
 should include the protocol, e.g. `https://example.com`.
 
+## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TGExplore/TG-Files-to-Link)
+
 ### Environment variables
 * `TG_API_ID` (required) - Your Telegram API ID.
 * `TG_API_HASH` (required) - Your Telegram API hash.
