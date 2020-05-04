@@ -33,6 +33,6 @@ should include the protocol, e.g. `https://example.com`.
    * Note: When it will ask for Phone Number and Bot token Give `Bot token` value
 
 
-## Issue Bot stopped responding
+## Issue Bot stopped responding (https://github.com/tulir/tgfilestream/issues/9)
 
    If bot is not responding, open `https://<appname>.herokuapp.com/` and try again.
