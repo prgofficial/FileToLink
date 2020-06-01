@@ -1,4 +1,4 @@
-# tgfilestream
+# Telegram File To Link Generation Bot
 A Telegram bot that can stream Telegram files to users over HTTP.
 
 ## Setup
@@ -12,6 +12,8 @@ should include the protocol, e.g. `https://example.com`.
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TGExplore/TG-Files-to-Link)
+
+Watch our YouTube video for more details - [How To Create Your Own Telegram File To Link Generation Bot](http://www.youtube.com/watch?v=H-bEuLjwdfY)
 
 ### Environment variables
 * `TG_API_ID` (required) - Your Telegram API ID.
@@ -31,6 +33,10 @@ should include the protocol, e.g. `https://example.com`.
 
    Run Console in Heroku `python3 GenerateStringSession.py` and follow.
    * Note: When it will ask for Phone Number and Bot token Give `Bot token` value
+   
+### OR use online terminal
+
+[![Run](https://img.shields.io/badge/Run%20Online-Black)](https://generatestringsession.tgexplore.repl.run/)
 
 
 ## Issue Bot stopped responding 
