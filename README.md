@@ -1,7 +1,7 @@
 # Telegram File To Link Generation Bot
 A Telegram bot that can stream Telegram files to users over HTTP.
 
-## Setup
+## Installation
 Install dependencies (see [requirements.txt](/requirements.txt)), configure
 environment variables (see below) and run with `python3 -m tgfilestream`.
 
@@ -11,9 +11,7 @@ should include the protocol, e.g. `https://example.com`.
 
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TGExplore/TG-Files-to-Link)
-
-Watch our YouTube video for more details - [How To Create Your Own Telegram File To Link Generation Bot](http://www.youtube.com/watch?v=H-bEuLjwdfY)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prgofficial/FileToLink)
 
 ### Environment variables
 * `TG_API_ID` (required) - Your Telegram API ID.
@@ -28,15 +26,6 @@ Watch our YouTube video for more details - [How To Create Your Own Telegram File
 * `REQUEST_LIMIT` (default 5) - The maximum number of requests a single IP can have active at a time.
 * `CONNECTION_LIMIT` (default 20) - The maximum number of connections to a single Telegram datacenter.
 * `TG_START_MESG` - The message that should be shown in Telegram chat, in case of non-media message.
-
-## How to get TG_SESSION_NAME string
-
-   Run Console in Heroku `python3 GenerateStringSession.py` and follow.
-   * Note: When it will ask for Phone Number and Bot token Give `Bot token` value
-   
-### OR use online terminal
-
-[![Run](https://img.shields.io/badge/Run%20Online-Black)](https://generatestringsession.tgexplore.repl.run/)
 
 
 ## Issue Bot stopped responding 
