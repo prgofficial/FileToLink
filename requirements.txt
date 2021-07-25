@@ -2,3 +2,4 @@ aiohttp
 yarl
 telethon
 cryptg
+python3 -m tgfilestream
