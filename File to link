@@ -1,0 +1,4 @@
+var result = JSON.parse(content)
+var text = result.data.translations[0].translatedText
+var detected = result.data.translations[0].detectedSourceLanguage
+Bot.sendMessage("*🎉 Text Converted From "+detected+" To Hi.\n\n📑 Translated Text: "+text+"\n\n🔊 Language: "+detected+" (Auto Detected)*")
