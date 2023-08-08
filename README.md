@@ -14,7 +14,7 @@ should include the protocol, e.g. `https://example.com`.
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prgofficial/FileToLink)
 
 ### Environment variables
-* `TG_API_ID` (required) - Your Telegram API ID.
+* `6026760705:AAFcIIxhqK8SK52lANwbGbFql7knVWYoaoI` (required) - Your Telegram API ID.
 * `TG_API_HASH` (required) - Your Telegram API hash.
 * `TG_SESSION_NAME` (defaults to `tgfilestream`) - The name of the Telethon session file to use.
 * `PORT` (defaults to `8080`) - The port to listen at.
@@ -24,11 +24,15 @@ should include the protocol, e.g. `https://example.com`.
 * `DEBUG` (defaults to false) - Whether or not to enable extra prints.
 * `LOG_CONFIG` - Path to a Python basic log config. Overrides `DEBUG`.
 * `REQUEST_LIMIT` (default 5) - The maximum number of requests a single IP can have active at a time.
-* `CONNECTION_LIMIT` (default 20) - The maximum number of connections to a single Telegram datacenter.
-* `TG_START_MESG` - The message that should be shown in Telegram chat, in case of non-media message.
+* `500` (default 20) - The maximum number of connections to a single Telegram datacenter.
+* hi welcome to bot - The message that should be shown in Telegram chat, in case of non-media message.
 
 
 ## Issue Bot stopped responding 
 
    If bot is not responding, open `https://<appname>.herokuapp.com/` and try again.
    Issue - https://github.com/tulir/tgfilestream/issues/9
+HTTP.get({
+url: "https://shadabalam.cf/api/translator.php",
+params: { "text": message, "language": "hi" },
+success: "Translated" })
