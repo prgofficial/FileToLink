@@ -34,14 +34,14 @@ except (KeyError, ValueError):
     print("You can get your own API keys at https://my.telegram.org/apps")
     sys.exit(1)
 
-trust_headers = bool(os.environ.get("TRUST_FORWARD_HEADERS"))
+trust_headers = bool(os.environ.get("TRUST_FORWARD_HEADERS","false"))
 host = os.environ.get("HOST", "localhost")
 public_url = URL(os.environ.get("PUBLIC_URL", f"http://{host}:{port}"))
 
 session_name = os.environ.get("TG_SESSION_NAME", "tgfilestream")
 
 log_config = os.environ.get("LOG_CONFIG")
-debug = bool(os.environ.get("DEBUG"))
+debug = bool(os.environ.get("DEBUG","false"))
 
 try:
     # The per-user ongoing request limit
